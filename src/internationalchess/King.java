@@ -9,11 +9,11 @@ package internationalchess;
  *
  * @author BryanS
  */
-public class Pawn implements ChessPiece{
+public class King implements ChessPiece {
     private Pos pos;
     private int stepLimit;
     private boolean isBlack;
-    public Pawn(int x, int y){
+    public King(int x, int y){
         pos.setX(x);
         pos.setY(y);
     }

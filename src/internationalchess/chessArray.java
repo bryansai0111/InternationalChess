@@ -15,4 +15,8 @@ public class chessArray {
     public chessArray(){
         
     }
+    
+    public void removePiece(){
+        
+    }
 }

@@ -11,15 +11,13 @@ package internationalchess;
  */
 public interface ChessPiece {
     
-    public void move();
+    public void move();//figure out how the chesspiece is going to move
     
-    public void eat();
+    //public void eat();
     
-    public void remove();
+    //public void remove();
     
     public boolean isBlack();
     
-    public int getX();
-    
-    public int getY();
+    public Pos getPos();
 }
